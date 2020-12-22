@@ -5,7 +5,7 @@ pipeline {
     }
 
     environment {
-        image = "kaenoob/nodejs"
+        image = "kaenoob/nodejs:lasted"
         registry = "docker.io"
     }
 
