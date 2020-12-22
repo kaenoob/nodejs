@@ -30,6 +30,7 @@ pipeline {
         //     }
         // }
         
+        /*        
         stage('Build docker image') {
             steps {
                 script {
@@ -41,7 +42,7 @@ pipeline {
                 }
             }
         }
-
+        */
         stage('Deployment'){
             steps {
                 sh "docker-compose up -d"
